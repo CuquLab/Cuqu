@@ -1,0 +1,45 @@
+#nav {
+    font-size: 15px;
+    color: rgba(0,0,0,.5);
+}
+
+#nav a {
+    line-height: 40px;
+}
+
+#nav a:hover {
+   color: #F2A20C;
+} 
+
+#nav a:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    border-bottom: 3px transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+#nav a:hover:after {
+    width: 100%;
+    border-bottom: 3px solid #F2A20C;
+}
+
+#brand {
+    border-bottom: none;
+}
+
+#collaborate {
+    background: #147335;
+}
+
+  @media (max-width: 994px) {
+    #nav a:hover{         
+        margin: auto;
+  } 
+
+  #collaborate{         
+    margin: auto;
+    padding: 10px;
+}
+ }     
