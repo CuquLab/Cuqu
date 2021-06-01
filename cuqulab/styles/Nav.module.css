@@ -1,6 +1,6 @@
 #nav {
     font-size: 15px;
-    color: rgba(0,0,0,.5);;
+    color: rgba(0,0,0,.5);
 }
 
 #nav a {
@@ -8,8 +8,8 @@
 }
 
 #nav a:hover {
-    color: #a09c94
-}
+   color: #F2A20C;
+} 
 
 #nav a:after {
     content: '';
@@ -35,7 +35,7 @@
 
   @media (max-width: 994px) {
     #nav a:hover{         
-        margin: 0 auto;
+        margin: auto;
   } 
 
   #collaborate{         

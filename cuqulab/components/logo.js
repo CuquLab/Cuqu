@@ -1,4 +1,4 @@
-// import logocuqulab from '../images/logocuqulab.jpg'
+
 import Image from 'next/image'
 
 const Logo = () => {

@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <div id={styles.nav}>
             <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-                <div className='container-fluid'>
+                <div className='container-fluid px-5'>
                     <div className='navbar-brand'>
                         <Logo />
                     </div>
