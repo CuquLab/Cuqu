@@ -1,0 +1,27 @@
+.weDoContainer {
+    margin: auto;
+    margin-top: 10vh;
+    width: 80%;
+    min-height: 50vh;
+}
+
+.weDoImg {
+    border: solid rgb(214, 211, 211) 1px;
+    border-radius: 50%;
+    height: 20vh;
+    margin-bottom: 5vh;
+    transition: all 0.3s ease 0s, height 0s ease 0s;
+    cursor: pointer;
+    filter: drop-shadow(8px 8px 5px #11111198);
+}
+
+.weDoImg:hover {
+    transform: scale(1.2);
+}
+
+.weDoTitle {
+    margin-bottom: 10vh;
+    line-height: 1.15;
+    font-size: 3rem;
+    text-align: center;
+}
