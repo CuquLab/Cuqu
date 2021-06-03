@@ -1,0 +1,21 @@
+.allianceContainer {
+    position: relative;
+        width: 80%;
+        margin: 10px auto;
+        background-color: #147335;
+        color: #fff;
+        padding: 15px;
+      }
+      
+      .thumb {
+          display: flex;
+          align-items: center;
+          flex-direction: row;   
+      }
+
+      @media (max-width: 822px) {
+       .thumb {         
+            flex-direction: column;
+      } 
+     }     
+     
