@@ -4,7 +4,7 @@ const WeDo = () => {
     return (
         <div className={styles.weDoContainer}>
             <h2 className={styles.weDoTitle}>Que Hacemos?</h2>
-            <div class="row" style={{ height: "50vh" }}>
+            <div className={styles.cardContainer}>
                 < div class="col-sm-4 text-center h-100">
                     <img src="/images/Desarrollo.png" className={styles.weDoImg} alt="LogoDesarrollo"></img>
                     <div className="card-body">
