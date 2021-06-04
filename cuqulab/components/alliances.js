@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { Instagram } from 'react-bootstrap-icons'
+import { Globe } from 'react-bootstrap-icons'
 import styles from '../styles/Alliance.module.css'
 
 const Alliances = () => {
@@ -17,6 +20,20 @@ const Alliances = () => {
                         <div className={styles.pAlliance}>
                             <p className='animate__animated animate__fadeInRight animate__delay-2s'>Brandon por la Igualdad/Equidad de Derechos y Oportunidades Asociación Civil LGTBIQ+ 🏳️‍🌈 Sede social @casabrandon 💥 20 años de Cultura LGTBIQ+ 😻</p>
                         </div>
+                        <ul className='list-unstyled list-inline'>
+                            <li className='list-inline-item'>
+                                <Link href='https://www.instagram.com/brandonporlaigualdad/'>
+                                    <a className='btn-lg'><Instagram />
+                                    </a>
+                                </Link>
+                            </li>
+                            <li className='list-inline-item'>
+                                <Link href='http://brandon.org.ar/'>
+                                    <a className='btn-lg'><Globe />
+                                    </a>
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
