@@ -18,32 +18,32 @@ const Navigation = () => {
                         <ul className='navbar-nav' >
                             <li className='nav-item'>
                                 <Link href='/' activeClassName='active'>
-                                    <a className='nav-link text-center text-uppercase' aria-current='page'>Inicio</a>
+                                    <a className='nav-link text-center' aria-current='page'>Inicio</a>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link href='/glosario' activeClassName='active'>
-                                    <a className='nav-link text-center text-uppercase'>Glosario</a>
+                                    <a className='nav-link text-center'>Glosario</a>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link href='/recursos' activeClassName='active'>
-                                    <a className='nav-link text-center text-uppercase'>Recursos</a>
+                                    <a className='nav-link text-center'>Recursos</a>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link href='/blog' activeClassName='active'>
-                                    <a className='nav-link text-center text-uppercase'>Blog</a>
+                                    <a className='nav-link text-center'>Blog</a>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link href='/contacto' activeClassName='active'>
-                                    <a className='nav-link text-center text-uppercase'>Contacto</a>
+                                    <a className='nav-link text-center'>Contacto</a>
                                 </Link>
                             </li>
                             <li className='nav-item' id={styles.collaborate}>
                                 <Link href='https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=32556454-115e8741-45be-430d-9067-d2b4935638c9' activeClassName='active'>
-                                    <a className='nav-link text-center text-white text-uppercase'>Colaborá</a>
+                                    <a className='nav-link text-center text-white'>Colaborá</a>
                                 </Link>
                             </li>
                         </ul>

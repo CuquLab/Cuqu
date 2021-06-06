@@ -1,5 +1,5 @@
 #nav {
-    font-size: 15px;
+    font-size: 18px;
     color: rgba(0,0,0,.5);
 }
 
@@ -30,7 +30,8 @@
 }
 
 #collaborate {
-    background: #147335;
+    background: #1B91BF;
+    border-radius: 10px;
 }
 
   @media (max-width: 994px) {
