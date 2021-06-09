@@ -1,6 +1,6 @@
-import styles from '../styles/WeDo.module.css'
+import styles from '../styles/WhatWeDo.module.css'
 
-const WeDo = () => {
+const WhatWeDo = () => {
     return (
         <div className={styles.weDoContainer}>
             <h2 className={styles.weDoTitle}>Que Hacemos?</h2>
@@ -32,4 +32,4 @@ const WeDo = () => {
     )
 }
 
-export default WeDo
+export default WhatWeDo

@@ -1,13 +1,13 @@
 import About from '../components/aboutUs'
 import Container from '../components/container'
-import WeDo from '../components/whatWeDo'
+import WhatWeDo from '../components/whatWeDo'
 
 export default function Home() {
   return (
     <div>
       <Container>
         <About />
-        <WeDo />
+        <WhatWeDo />
       </Container>
     </div>
   )
