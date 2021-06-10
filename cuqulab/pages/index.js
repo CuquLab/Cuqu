@@ -9,6 +9,7 @@ export default function Home() {
       <Container>
         <About />
         <WhatWeDo />
+        <Alianzas />
       </Container>
     </div>
   )
