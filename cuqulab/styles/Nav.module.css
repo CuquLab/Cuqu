@@ -1,10 +1,10 @@
 #nav {
-    font-size: 15px;
+    font-size: 18px;
     color: rgba(0,0,0,.5);
 }
 
 #nav a {
-    line-height: 40px;
+    line-height: 20px;
 }
 
 #nav a:hover {
@@ -30,16 +30,19 @@
 }
 
 #collaborate {
-    background: #147335;
+    background-color: #1B91BF;
+    border-radius: 5px;
 }
 
-  @media (max-width: 994px) {
+@media (max-width: 994px) {
     #nav a:hover{         
-        margin: auto;
+        margin: auto;     
   } 
 
   #collaborate{         
     margin: auto;
-    padding: 10px;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    line-height: 20px; 
 }
  }     

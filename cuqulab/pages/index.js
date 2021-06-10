@@ -1,4 +1,5 @@
 import About from '../components/aboutUs'
+import Alianzas from '../components/alliances'
 import Container from '../components/container'
 import WhatWeDo from '../components/whatWeDo'
 
