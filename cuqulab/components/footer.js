@@ -26,11 +26,6 @@ const Footer = () => {
                             </Link>
                         </p>
                         <p>
-                            <Link href='/blog'>
-                                <a>Blog</a>
-                            </Link>
-                        </p>
-                        <p>
                             <Link href='/manual'>
                                 <a>Descargá nuestro manual</a>
                             </Link>
