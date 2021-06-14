@@ -8,7 +8,7 @@ const Alliances = () => {
             <div className='row'>
                 <h2 className='text-center'>Alianzas</h2>
             </div>
-            <hr />
+            <hr id={styles.allianceHr} />
             <div className='row'>
                 <div className='col-md-3 col-sm-6 col-xs-12 text-center'>
                     <div className={styles.imgAlliance}>
