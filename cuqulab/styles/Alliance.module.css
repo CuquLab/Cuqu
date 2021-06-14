@@ -1,23 +1,14 @@
 .allianceContainer {
         position: relative;
         width: 80%;
-        margin: 10px auto;
+        margin: 50px auto;
         padding: 15px;  
       }
 
        .divImgAlliance{
-         /* position: relative; */
         height: 150px;
         width: 150px;
       }  
-
-       /* .imgAlliance {
-         position: center;
-        size: contain;  
-         object-fit: cover; 
-         object-position: 50% 50%;
-        
-      }  */
 
       .imgAlliance:hover {
        -webkit-transform:scale(1.1);
@@ -31,6 +22,12 @@
        -o-transition:all .9s ease;
        -ms-transition:all .9s ease; 
       }
+
+      #allianceHr {
+            border: 3px solid rgb(8, 7, 7);
+          }
+          
+        
 
       
 
