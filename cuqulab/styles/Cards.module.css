@@ -8,41 +8,46 @@
 }
 
 .btnInfo:hover{
-background-color: #F2F2F2;
-color: #1B91BF;
-transition: background-color 0.7s ease-in-out;
-
+    background-color: #F2F2F2;
+    color: #1B91BF;
+    transition: all .7s ease-in-out;
 }
 
 .cardLeft  {
     margin: 20px;
     font-size: 18px;
-     background-color:#F2F2F2; 
+    background-color:#F2F2F2; 
 }
 
 .cardRight {
-    margin: 0px 10px;
+    margin: 20px;
     font-size: 18px;
-     background-color:#F2F2F2; 
+    background-color:#F2F2F2; 
 }
 
-.cardLeft img, .cardRight img {
-    opacity: 0.5;
-    
-}
+.cardLeft:hover {
+    transition: all 0.25s ease-in-out;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);  
+} 
 
-.cardLeft img:hover {
-    opacity: 1;
-    transition: opacity 0.7s ease-in-out;
-}
-
-.cardRight img:hover {
-    opacity: 1;
-     transition: opacity 0.7s ease-in-out;
-}
-  
+.cardRight:hover {
+    transition: all 0.25s ease-in-out;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}  
+ 
  @media (max-width: 992px) {
     .cardLeft, .cardRight  {
-  font-size: 15px;
+    font-size: 15px;
     }
   }  
+
+  @media (max-width: 768px) {
+    .cardLeft:hover  {
+        border: 2px solid #a8c3d1;
+    }
+    .cardRight:hover  {
+        border: 2px solid #a8c3d1;
+    }
+  } 
