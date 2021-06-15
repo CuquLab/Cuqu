@@ -11,28 +11,35 @@
     justify-content: space-between;
 }
 
-.weDoCard {
-    background-color: white;
-    width: 25%;
+.weDoTitle {
+    color: black;
+    margin-bottom: 10vh;
+    line-height: 1.15;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .weDoImg {
-    border: solid rgb(214, 211, 211) 1px;
     border-radius: 50%;
     height: 20vh;
     margin-bottom: 5vh;
     transition: all 0.3s ease 0s, height 0s ease 0s;
     cursor: pointer;
-    filter: drop-shadow(8px 8px 5px #11111198);
+
 }
 
 .weDoImg:hover {
     transform: scale(1.2);
 }
 
-.weDoTitle {
-    margin-bottom: 10vh;
-    line-height: 1.15;
-    font-size: 3rem;
-    text-align: center;
+.weDoCardBody {
+    padding: 5px; 
+    min-height: fit-content;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.weDoCardTitle {
+    margin-bottom: 5vh;
+    color: black;
 }
