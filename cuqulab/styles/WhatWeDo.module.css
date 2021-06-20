@@ -12,7 +12,6 @@
 }
 
 .weDoTitle {
-    color: black;
     margin-bottom: 10vh;
     line-height: 1.15;
     font-size: 3rem;
@@ -42,4 +41,8 @@
 .weDoCardTitle {
     margin-bottom: 5vh;
     color: black;
+}
+
+.weDoCardText {
+    padding: 5px;
 }
