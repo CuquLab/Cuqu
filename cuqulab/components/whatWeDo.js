@@ -9,10 +9,10 @@ const WhatWeDo = () => {
                     <img src="/images/Desarrollo.png" className={styles.weDoImg} alt="LogoDesarrollo"></img>
                     <div className={styles.weDoCardBody}>
                         <div className={styles.weDoCardTitle}>
-                            <h5>Desarrollo y gestion de proyectos</h5>
+                            <h5>Proyectos</h5>
                         </div>
                         <div className={styles.weDoCardText}>
-                            <p>Diseño y presentación de proyectos a fondos nacionales, locales e internacionales.</p>
+                            <p>Diseño, desarrollo, gestión y presentación de proyectos a fondos nacionales, locales e internacionales.</p>
                         </div>
                     </div>
                 </div>
