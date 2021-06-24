@@ -17,12 +17,31 @@
     margin: 20px;
     font-size: 18px;
     background-color:#F2F2F2; 
+    background: rgba(243, 241, 241, 0.2);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px); 
+    /* background: #edc0bf; */
+    /* background: rgba(216, 134, 134, 0.2); */
+ /* background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%); */
+
+ /* background-color: #F23D3D;
+ color:#F2F2F2  */
 }
 
 .cardRight {
     margin: 20px;
     font-size: 18px;
-    background-color:#F2F2F2; 
+     background-color:#F2F2F2;   
+     /* background: #edc0bf; */
+     /* background: rgba(216, 134, 134, 0.2); */
+  /* background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);  */
+
+ /* background-color: #147335;
+color:#F2F2F2  */
+
+
 }
 
 .cardLeft:hover {

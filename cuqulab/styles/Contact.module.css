@@ -1,25 +1,96 @@
-.contactHeader {
-    width: 100%;
-    height: 50vh;
-    background-image: url('/images/LaUnionHacelaFuerza.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+#contactContainer {
+    color: rgb(90, 88, 88);
 }
 
-.contactContainer {
-    width: 90%;
-    height: 100vh;
-    display: flex;
-}
+ .contactHeader {
+        width: auto;
+        max-width: 300px;
+        height: auto;
+         margin: 1em auto; 
+        overflow: hidden;
+         position: relative; 
+         display: flex;
+         justify-content: center;
+         align-items: center;  
+    } 
 
-.contactLinks {
-    height: 100%;
-    width: 40%;
-    padding-top: 10vh;
-}
+    .contactHeader img {
+        width: 50%;
+        height: 50%;
+        transition: all 0.3s ease-out;
+         position: relative; 
+        z-index: 2;
+    }
+    
+     .contactHeader:hover img {
+        transform: scale(1.1, 1.1);
+        z-index: 9;
+    }
 
-.contactForm {
-    height: 100%;
-    width: 60%;
-}
+    .contactContainer {
+       width: 90%;
+       display: flex;
+       margin: auto;
+       flex-flow: row wrap;
+    }
+
+    .contactLinks {
+       height: 100%;
+       width: 40%;
+       padding-top: 10vh;
+    }
+
+    .contactForm {
+      height: 100%;
+      width: 50%; 
+      margin-top: 50px; 
+    } 
+     
+    #contactDataContainer{
+      overflow-y: hidden;
+    } 
+
+    #iconImgNotion:hover {
+      filter: invert(12%) sepia(28%) saturate(7162%) hue-rotate(357deg) brightness(130%) contrast(83%)
+    }
+
+    .form {
+        color: #147335;
+        /* background-color: #147335;  */
+        font-weight: 700;  
+       /* border-color: #FF0000;  */
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff3300;
+        padding: 30px;
+       /* background: rgba(255, 255, 255, .2);
+	   -webkit-backdrop-filter: blur(10px);
+	   backdrop-filter: blur(10px);  */
+       /* background: #edc0bf;
+       background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+       -webkit-backdrop-filter: blur(10px);
+       backdrop-filter: blur(10px);   */
+       background-image: url('/images/sA4.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+
+    #formSubmitBtn {
+      font-weight: 700;
+      background-color: rgb(241, 90, 41);
+    }
+
+    #formSubmitBtn:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: rgb(241, 90, 41);
+      font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+
