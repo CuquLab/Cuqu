@@ -4,15 +4,13 @@ import { HouseFill } from 'react-bootstrap-icons'
 import { EnvelopeFill } from 'react-bootstrap-icons'
 import { Instagram } from 'react-bootstrap-icons'
 import { Youtube } from 'react-bootstrap-icons'
-// import { SiNotion } from "react-icons/bs";
 import styles from '../styles/Footer.module.css'
-
 
 const Footer = () => {
     return (
         <footer className='bg-light pt-5 pb-4'>
-            <div className='footerContainer text-center text-md-left'>
-                <div className='row text-center text-md-left'>
+            <div className='footerContainer text-center'>
+                <div className='row text-center text-md-center'>
                     <div className='col-md-4 col-lg-4 col-xl-4 mx-auto mt-3'>
                         <Logo />
                     </div>
@@ -20,12 +18,12 @@ const Footer = () => {
                         <h5 className='text-uppercase mb-4 font-weight-bold text-warning'>Accesos rápidos</h5>
                         <p>
                             <Link href='/'>
-                                <a>Home</a>
+                                <a style={{ textDecoration: 'none' }}>Inicio</a>
                             </Link>
                         </p>
                         <p>
-                            <Link href='/manual'>
-                                <a>Descargá nuestro manual</a>
+                            <Link href='https://drive.google.com/drive/folders/1Pv_1DKlnK0ajV2p4YH6OtXk1Tcotz4vr'>
+                                <a style={{ textDecoration: 'none' }}>Descargá nuestro manual</a>
                             </Link>
                         </p>
                     </div>
@@ -43,11 +41,11 @@ const Footer = () => {
                 <div className='row align-items-center'>
                     <div className='col-md-7 col-lg-8'>
                         <p>Copyright © 2021 Todos los derechos reservados por:
-                                <strong className='text-warning'> CuquLab</strong>
+                            <strong className='text-warning'> CuquLab</strong>
                         </p>
                     </div>
                     <div className='col-md-5 col-lg-4'>
-                        <div className='text-center text-md-right'>
+                        <div className='text-center text-md-center'>
                             <ul className='list-unstyled list-inline'>
                                 <li className='list-inline-item'>
                                     <Link href='https://www.instagram.com/cuqulab/'>
