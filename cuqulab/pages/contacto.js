@@ -1,42 +1,10 @@
 import Container from '../components/container'
-import { useForm } from "react-hook-form"
-import { Alert } from 'react-bootstrap'
 import { Instagram, EnvelopeFill, Youtube } from 'react-bootstrap-icons'
 import Link from 'next/link'
-// import emailjs from 'emailjs-com'
-// import dynamic from 'next/dynamic'
 import styles from '../styles/Contact.module.css'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 
 const Contacto = () => {
-
-
-    // const emailjs = dynamic(import('@emailjs-com'), { ssr: false })
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     emailjs.sendForm('gmailMessage', 'template_k8f0zaf', e.target, 'user_kXWOl1pXL7MDEzgidNQVI')
-    //         .then((result) => {
-    //             console.log(result.text);
-    //             <Alert variant="success">
-    //                 'Mensaje enviado exitosamente! Te contactaremos a la brevedad'
-    //             </Alert>
-    //         }, (error) => {
-    //             console.log(error.text);
-    //             <Alert variant="success">
-    //                 'Ha ocurrido un error. Por favor, reintenta nuevamente'
-    //             </Alert>
-    //             // alert('Ha ocurrido un error. Por favor, reintenta nuevamente')
-    //         });
-    //     e.target.reset();
-    // };
-    // const { register, errors } = useForm();
-
-    // const onSubmit = formData => {
-    //     alert(JSON.stringify(formData))
-    // }
 
     return (
         <Container>
@@ -91,47 +59,20 @@ const Contacto = () => {
                                 <div className='mb-3'>
                                     <label htmlFor='name' className='form-label'><big>Nombre * </big><span><small> (obligatorio)</small></span></label>
                                     <input type='text' className='form-control' name='name' id='name' placeholder='Ej: Daniela' required />
-                                    {/* {errors.name &&
-                                        // if errors then display alert
-                                        <Alert variant="danger">
-        // if name error type is "required" display following message
-                                            {errors.name?.type === "required" && <p>Ingresá tu nombre</p>}
-        // if name error type is "maxLength" display following message
-                                            {errors.name?.type === "maxLength" && <p>El máximo de caracteres permitidos es de 20</p>}
-                                        </Alert>
-                                    } */}
                                 </div>
                                 <div className='mb-3'>
                                     <label htmlFor='mail' className='form-label'><big>Correo electrónico * </big><span><small> (obligatorio)</small></span></label>
                                     <input type='text' className='form-control' name='email' id='mail' placeholder='Ej: daniela@gmail.com' required />
-                                    {/* {errors.email &&
-                                        <Alert variant="danger">
-                                            {errors.email?.type === "required" && <p>Ingresá tu email</p>}
-                                            {errors.email?.type === "pattern" && <p>Ingresá un email válido</p>}
-                                        </Alert>
-                                    } */}
                                 </div>
                                 <div className='mb-3'>
                                     <label htmlFor='phone' className='form-label'><big>Teléfono </big><span><small> (opcional)</small></span></label>
                                     <input type='tel' className='form-control' name='phone' id='phone' placeholder='Código de país + Código de área + Número' />
-                                    {/* {errors.phone &&
-                                        <Alert variant="danger">
-                                            {errors.phone?.type === "pattern" && <p>Ingresá un número de teléfono válido</p>}
-                                        </Alert>
-                                    } */}
                                 </div>
                                 <div className='mb-3'>
                                     <label htmlFor='coments' className='form-label'><big>Mensaje * </big><span><small> (obligatorio)</small></span></label>
                                     <textarea className='form-control' name='comments' id='comments' rows='5' placeholder='Escribí acá tu consulta' required></textarea>
-                                    {/* {errors.comments &&
-                                        <Alert variant="danger">
-                                            {errors.comments?.type === "required" && <p>Dejanos tu mensaje</p>}
-                                            {errors.comments?.type === "maxLength" && <p>Máximo permitido: 200 caracteres</p>}
-                                        </Alert>
-                                    } */}
                                 </div>
                                 <button type='submit' className='btn mt-3' id={styles.formSubmitBtn}>Enviar</button>
-
                             </form>
                         </div>
                     </div>
