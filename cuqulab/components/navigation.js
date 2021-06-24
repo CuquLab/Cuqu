@@ -32,11 +32,6 @@ const Navigation = () => {
                                 </Link>
                             </li>
                             <li className='nav-item'>
-                                <Link href='/blog' activeClassName='active'>
-                                    <a className='nav-link text-center'>Blog</a>
-                                </Link>
-                            </li>
-                            <li className='nav-item'>
                                 <Link href='/contacto' activeClassName='active'>
                                     <a className='nav-link text-center'>Contacto</a>
                                 </Link>

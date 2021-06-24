@@ -15,6 +15,9 @@
 }
 
 .aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 2rem;
     width: 50%;
     color: white;
@@ -23,9 +26,8 @@
 .aboutLink {
     background-color: rgb(241, 90, 41);
     width: fit-content;
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    align-self: center;
+    padding: 5px;
     text-align: center;
 }
 

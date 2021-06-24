@@ -4,6 +4,8 @@ import { HouseFill } from 'react-bootstrap-icons'
 import { EnvelopeFill } from 'react-bootstrap-icons'
 import { Instagram } from 'react-bootstrap-icons'
 import { Youtube } from 'react-bootstrap-icons'
+// import { SiNotion } from "react-icons/bs";
+import styles from '../styles/Footer.module.css'
 
 
 const Footer = () => {
@@ -12,32 +14,18 @@ const Footer = () => {
             <div className='footerContainer text-center text-md-left'>
                 <div className='row text-center text-md-left'>
                     <div className='col-md-4 col-lg-4 col-xl-4 mx-auto mt-3'>
-                        <h5 className='text-uppercase mb-4 font-weight-bold text-warning'>CuquLab</h5>
-                        <p>ONG</p>
-                        <Link href='/'>
-                            <a className='my-2'><Logo /></a>
-                        </Link>
+                        <Logo />
                     </div>
                     <div className='col-md-4 col-lg-4 col-xl-4 mx-auto mt-3'>
                         <h5 className='text-uppercase mb-4 font-weight-bold text-warning'>Accesos rápidos</h5>
                         <p>
-                            <Link href='/actividades'>
-                                <a>Actividades</a>
-                            </Link>
-                        </p>
-                        <p>
-                            <Link href='/blog'>
-                                <a>Blog</a>
+                            <Link href='/'>
+                                <a>Home</a>
                             </Link>
                         </p>
                         <p>
                             <Link href='/manual'>
                                 <a>Descargá nuestro manual</a>
-                            </Link>
-                        </p>
-                        <p>
-                            <Link href='/alianzas'>
-                                <a>Alianzas</a>
                             </Link>
                         </p>
                     </div>
@@ -70,6 +58,13 @@ const Footer = () => {
                                 <li className='list-inline-item'>
                                     <Link href='https://www.youtube.com/channel/UCHXEGRo3nDSxRpob4Ve8Mqw'>
                                         <a className='btn-lg'><Youtube />
+                                        </a>
+                                    </Link>
+                                </li>
+                                <li className='list-inline-item' >
+                                    <Link href='https://www.notion.so/2ed71c2b719d402ea25825b44abd0721'>
+                                        <a className='btn-lg' >
+                                            <img src='/images/NotionIcon48.png' width='25' height='25' id={styles.iconImgNotion} />
                                         </a>
                                     </Link>
                                 </li>
