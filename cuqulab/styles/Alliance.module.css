@@ -5,6 +5,10 @@
         padding: 15px;  
       }
 
+      .allianceContainer h2 {
+        color: black;
+      }
+
        .divImgAlliance{
         height: 150px;
         width: 150px;

@@ -6,9 +6,8 @@ const Alliances = () => {
     return (
         <div className={styles.allianceContainer}>
             <div className='row'>
-                <h2 className='text-center'>Alianzas</h2>
+                <h2 className='text-center mt-5'>| Alianzas |</h2>
             </div>
-            <hr id={styles.allianceHr} />
             <div className='row'>
                 <div className='col-md-3 col-sm-6 col-xs-12 text-center'>
                     <div className={styles.imgAlliance}>
@@ -17,7 +16,7 @@ const Alliances = () => {
                 </div>
                 <div className='col-md-3 col-sm-6 col-xs-12 text-center'>
                     <div className={styles.imgAlliance}>
-                        <GenericLogoWithLink href='https://www.instagram.com/explore/tags/escueladeg%C3%A9neros/' src='/images/LogoEscuelaByM20x20.png' alt='Escuela de géneros Brandon/Mocha' width='150' height='150' />
+                        <GenericLogoWithLink href='https://www.notion.so/cuqu/Escuela-Popular-de-G-neros-y-Diversidad-Brandon-Mocha-04d36f8caad64137a3d8baa58c8c9f1a' src='/images/LogoEscuelaByM20x20.png' alt='Escuela de géneros Brandon/Mocha' width='150' height='150' />
                     </div>
                 </div>
                 <div className='col-md-3 col-sm-6 col-xs-12 text-center'>
