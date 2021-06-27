@@ -4,9 +4,14 @@ import { HouseFill } from 'react-bootstrap-icons'
 import { EnvelopeFill } from 'react-bootstrap-icons'
 import { Instagram } from 'react-bootstrap-icons'
 import { Youtube } from 'react-bootstrap-icons'
+import { useRouter } from 'next/router'
 import styles from '../styles/Footer.module.css'
 
 const Footer = () => {
+
+    const router = useRouter();
+    const showInicioLink = router.pathname === '/' ? false : true;
+
     return (
         <footer className='bg-light pt-5 pb-4'>
             <div className='footerContainer text-center'>
@@ -16,11 +21,12 @@ const Footer = () => {
                     </div>
                     <div className='col-md-4 col-lg-4 col-xl-4 mx-auto mt-3'>
                         <h5 className='text-uppercase mb-4 font-weight-bold text-warning'>Accesos rápidos</h5>
-                        <p>
+                        {showInicioLink && <p>
                             <Link href='/'>
                                 <a style={{ textDecoration: 'none' }}>Inicio</a>
                             </Link>
-                        </p>
+                        </p>}
+
                         <p>
                             <Link href='https://drive.google.com/drive/folders/1Pv_1DKlnK0ajV2p4YH6OtXk1Tcotz4vr'>
                                 <a style={{ textDecoration: 'none' }}>Descargá nuestro manual</a>
