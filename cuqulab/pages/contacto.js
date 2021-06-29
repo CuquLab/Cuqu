@@ -56,7 +56,7 @@ const Contacto = () => {
                     </div>
                     <div className='col-12 col-lg-7 mt-5 gx-5 contact-form mb-4'>
                         <div className={styles.form}>
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfktuVFOPSkRHSITMkD5njU-J6Rdxtw-4xUUdKmysowOUvcpA/viewform?embedded=true" width="100%" height="980" frameBorder="0" marginHeight="0" marginWidth="0">Cargando…</iframe>
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfktuVFOPSkRHSITMkD5njU-J6Rdxtw-4xUUdKmysowOUvcpA/viewform?embedded=true" width="100%" height="1020" frameBorder="0" marginHeight="0" marginWidth="0">Cargando…</iframe>
                         </div>
                     </div>
                 </div>
