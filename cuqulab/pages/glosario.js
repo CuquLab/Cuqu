@@ -23,6 +23,7 @@ const Glosario = () => {
                 <CardRightImg
                     title='🚀 Espacios Culturales'
                     img='/images/EspaciosCulturales.png'
+                    text='Acá vas a encontrar un listado de espacios culturales de la Ciudad de Buenos Aires'
                     href='https://www.notion.so/Espacios-Culturales-0a6db63492294e2faea35a96ed35e451' />
 
                 <CardLeftImg
