@@ -23,8 +23,6 @@
     height: 20vh;
     margin-bottom: 5vh;
     transition: all 0.3s ease 0s, height 0s ease 0s;
-    cursor: pointer;
-
 }
 
 .weDoImg:hover {
