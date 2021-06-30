@@ -1,26 +1,29 @@
-#nav {
+ #nav {
     font-size: 18px;
     color: rgba(0,0,0,.5);
 }
 
 #nav a {
-    line-height: 20px;
+    line-height: 10px;
+}  
+.span {
+    margin-top: 7px;
 }
 
-#nav a:hover {
+#nav span:hover {
    color: #F2A20C;
 } 
 
-#nav a:after {
+#nav span:after {
     content: '';
     display: block;
-    height: 5px;
+    height: 10px;
     width: 0;
     border-bottom: 3px transparent;
     transition: width 0.7s ease, background-color 0.5s ease;
 }
 
-#nav a:hover:after {
+#nav span:hover:after {
     width: 100%;
     border-bottom: 3px solid #F2A20C;
 }
@@ -29,17 +32,27 @@
     border-bottom: none;
 }
 
-#collaborate {
+.navItemCollaborate {
+    color: white;
+    text-align: center;
     background-color: #1B91BF;
     border-radius: 5px;
+    margin: auto;
+     padding-right: .7rem;
+    padding-left: .7rem;
+     padding-top: .7rem;
+    padding-bottom: .3rem;
 }
-
-@media (max-width: 994px) {
+  
+@media (max-width: 992px) {
+    .span {
+    margin-bottom: 25px;
+}
     #nav a:hover{         
         margin: auto;     
   } 
 
-  #collaborate{         
+  #collaborate{ 
     margin: auto;
     padding-right: .5rem;
     padding-left: .5rem;

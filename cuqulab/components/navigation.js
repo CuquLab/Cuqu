@@ -1,45 +1,46 @@
 
-import Link from 'next/link'
 import Logo from '../components/logo'
+import ActiveLink from './activeLink.'
 import styles from '../styles/Nav.module.css'
 
 const Navigation = () => {
+
     return (
         <div id={styles.nav}>
-            <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+            <nav className='navbar navbar-expand-lg navbar-light bg-light '>
                 <div className='container-fluid px-5'>
                     <div className='navbar-brand'>
                         <Logo />
                     </div>
                     <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
-                        <span className='navbar-toggler-icon'></span>
+                        <i className='navbar-toggler-icon'></i>
                     </button>
                     <div className='collapse navbar-collapse p-3 justify-content-end' id='navbarNav'>
-                        <ul className='navbar-nav' >
-                            <li className='nav-item'>
-                                <Link href='/' activeClassName='active'>
-                                    <a className='nav-link text-center' aria-current='page'>Inicio</a>
-                                </Link>
+                        <ul className='navbar-nav d-flex align-items-center justify-content-center'>
+                            <li className={styles.span}>
+                                <ActiveLink href='/' className='active'>
+                                    <span >Inicio</span>
+                                </ActiveLink>
                             </li>
-                            <li className='nav-item'>
-                                <Link href='/glosario' activeClassName='active'>
-                                    <a className='nav-link text-center'>Glosario</a>
-                                </Link>
+                            <li className={styles.span}>
+                                <ActiveLink href='/glosario' className='active'>
+                                    <span>Glosario</span>
+                                </ActiveLink>
                             </li>
-                            <li className='nav-item'>
-                                <Link href='/recursos' activeClassName='active'>
-                                    <a className='nav-link text-center'>Recursos</a>
-                                </Link>
+                            <li className={styles.span}>
+                                <ActiveLink href='/recursos' className='active'>
+                                    <span>Recursos</span>
+                                </ActiveLink>
                             </li>
-                            <li className='nav-item'>
-                                <Link href='/contacto' activeClassName='active'>
-                                    <a className='nav-link text-center'>Contacto</a>
-                                </Link>
+                            <li className={styles.span}>
+                                <ActiveLink href='/contacto' className='active'>
+                                    <span>Contacto</span>
+                                </ActiveLink>
                             </li>
                             <li className='nav-item' id={styles.collaborate}>
-                                <Link href='https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=32556454-115e8741-45be-430d-9067-d2b4935638c9' activeClassName='active'>
-                                    <a className='nav-link text-center text-white'>Colaborá</a>
-                                </Link>
+                                <ActiveLink href='https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=32556454-115e8741-45be-430d-9067-d2b4935638c9' activeClassName='active'>
+                                    <span className={styles.navItemCollaborate}>Colaborá</span>
+                                </ActiveLink>
                             </li>
                         </ul>
                     </div>
