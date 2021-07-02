@@ -29,7 +29,7 @@ const Footer = () => {
 
                         <p>
                             <Link href='https://drive.google.com/drive/folders/1Pv_1DKlnK0ajV2p4YH6OtXk1Tcotz4vr'>
-                                <a style={{ textDecoration: 'none' }}>Descargá nuestro manual</a>
+                                <a style={{ textDecoration: 'none' }}>Descargá nuestro Manual</a>
                             </Link>
                         </p>
                     </div>
