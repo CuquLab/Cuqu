@@ -8,7 +8,7 @@ const About = () => {
             }}></div>
             <div className={styles.aboutText}>
                 <h5>¿Quiénes somos?</h5>
-                <p>Cuqu es un proyecto que asesora a artistas, activistas y a organizaciones sociales para potenciar el desarrollo, la sostenibilidad, el enfoque en perspectiva de géneros y el impacto social de sus proyectos culturales.</p>
+                <p>Cuqu es un proyecto que asesora a artistas, activistas y organizaciones sociales para potenciar el desarrollo, la sostenibilidad, el enfoque con perspectiva de géneros y el impacto social de sus proyectos culturales.</p>
                 <h5>Misión</h5>
                 <p>Cuqu promueve el derecho al acceso a una cultura diversa e inclusiva. Surge en el contexto de la pandemia del COVID19 en 2020 ante la falta de herramientas para la sostenibilidad de los proyectos culturales de la comunidad LGTBIQ+.</p>
                 <div className={styles.aboutLink}>
