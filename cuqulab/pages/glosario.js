@@ -23,19 +23,19 @@ const Glosario = () => {
                 <CardRightImg
                     title='🚀 Espacios Culturales'
                     img='/images/EspaciosCulturales.png'
-                    text='Acá vas a encontrar un listado de espacios culturales de la Ciudad de Buenos Aires'
+                    text='Acá vas a encontrar un listado de espacios culturales de la Ciudad de Buenos Aires.'
                     href='https://www.notion.so/Espacios-Culturales-0a6db63492294e2faea35a96ed35e451' />
 
                 <CardLeftImg
                     title='🎖 Asociaciones Civiles'
                     img='/images/AsociacionesCiviles.png'
-                    text='Acá repasamos qué información te piden habitualmente en los financiamientos y qué es cada una'
+                    text='Acá repasamos qué información te piden habitualmente en los financiamientos y qué es cada una.'
                     href='https://www.notion.so/Asociaciones-Civiles-18b2c28442ce42c5bd891b2fd4bf8e2a' />
 
                 <CardRightImg
                     title='🧰 Protocolos contra las violencias '
                     img='/images/ProtocolosContraLasViolencias.png'
-                    text='Acá encontrarás los protocolos contra las violencias de Géneros publicados'
+                    text='Acá encontrarás los protocolos contra las violencias de Géneros publicados.'
                     href='https://www.notion.so/Protocolos-contra-las-violencias-6adabf3df5e64b259933ee5536559415' />
             </Container>
         </div>
