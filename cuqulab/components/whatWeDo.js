@@ -20,7 +20,7 @@ const WhatWeDo = () => {
                     <img src="/images/Asesorias.png" className={styles.weDoImg} alt="LogoAsesorias"></img>
                     <div className={styles.weDoCardBody}>
                         <div className={styles.weDoCardTitle}>
-                            <h5>Asesorias</h5>
+                            <h5>Asesorías</h5>
                         </div>
                         <div className={styles.weDoCardText}>
                             <p>Acompañamiento para definir estrategias de financiamiento, consejos para llegar de la idea al proyecto, corrección de proyectos armados, etc.</p>
@@ -34,7 +34,7 @@ const WhatWeDo = () => {
                             <h5>Talleres</h5>
                         </div>
                         <div className={styles.weDoCardText}>
-                            <p>Nociones de gestión cultural, como presentar fondos específicos, herramientas digitales, tips de organización personal, etc.</p>
+                            <p>Nociones de gestión cultural, cómo presentar a fondos específicos, herramientas digitales, tips de organización personal, etc.</p>
                         </div>
                     </div>
                 </div>
